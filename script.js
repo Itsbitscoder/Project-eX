@@ -19,4 +19,13 @@ function activate(e) {
   }
 
   document.addEventListener('click', activate, false);
+
+ // Get the audio element
+let audio = document.getElementById("backgroundMusic");
+
+// Autoplay the audio
+audio.play();
+
+
+
   
